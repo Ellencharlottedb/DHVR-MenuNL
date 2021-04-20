@@ -9,7 +9,7 @@
 body {
   margin: 5vh 5vw;
 
-  background: #6da197
+  background: white;
 }
 header{
 		grid-template-columns: 1fr;
