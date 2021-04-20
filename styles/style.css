@@ -37,20 +37,16 @@ main{
 
 /*------------------------------- Ipad ------------------------------- */
 @media only screen and (min-width: 768px){
-	header{
-		display:grid;
-		grid-template-columns: 1fr 1fr;
-		margin-left: 2em;
-	}
+	
 		
 	h1{
-		font-size: 48px;
-		margin-top:2em;
+		font-size: 38px;
+		margin-top:1em;
 
 	}
 	p{
 		text-align: center;
-		font-size: 28px;
+		font-size: 32px;
 		
 	}
 	#spacex{
