@@ -8,10 +8,12 @@
 	}
 body {
   margin: 5vh 5vw;
-
-  background: #FFFFFF;
+  background: #6da197;
+  /*background: #FFFFFF;*/
 }
-
+main{
+	background: #FFFFFF;
+}
 	h1{
 		margin-top: 2em;
 		font-size: 32px;
