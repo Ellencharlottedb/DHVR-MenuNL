@@ -23,6 +23,7 @@ header{
 
 	}
 	p{
+		text-align: center;
 		font-size:28px;
 	}
 	#logo{
@@ -50,6 +51,7 @@ header{
 
 	}
 	p{
+		text-align: center;
 		font-size: 28px;
 		
 	}
@@ -59,62 +61,6 @@ header{
 		width: 35%;
 	}
 	#afbeelding{
-		text-align: right;
-	}
-}
-
-/*------------------------------- Laptop------------------------------- */
-@media only screen and (min-width: 1024px){
-header{
-		display:grid;
-		grid-template-columns: 1fr 1fr;
-		margin-left: 2em;
-	}
-	h1{
-		font-size: 50px;
-		margin-left: 0.5em;
-		margin-bottom: 0.2em;
-
-	}
-	p{
-		font-size: 20px;
-		margin-bottom:5em;
-		margin-left: 1.2em;
-	
-}
-#spacex{
-		margin-right: 1em;
-		margin-top: -12em;
-		width: 25%;
-	}
-	#afbeelding{
-		text-align: right;
-	}
-	#map {
-  /*height: 90vh;*/
-  width: 100%;
-}
-}
-
-/*------------------------------- Desktop ------------------------------- */
-@media only screen and (min-width: 1720px){
-	h1{
-		font-size: 90px;
-		margin-left: 0.5em;
-		margin-bottom: 0.2em;
-
-	}
-	p{
-		font-size: 50px;
-		margin-bottom:5em;
-		margin-left: 1.2em;
-	}
-	#spacex{
-		margin-right: 1em;
-		margin-top: -36em;
-		width: 25%;
-	}
-	#afbeelding{
-		text-align: right;
+		text-align: center;
 	}
 }
