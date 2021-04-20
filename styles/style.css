@@ -1,0 +1,120 @@
+/*------------------------------- mobile ------------------------------- */
+
+@media only screen and (min-width: 375px){
+		*{
+	  margin: 0;
+	  padding: 0;
+	  font-family: Helvetica;
+	}
+body {
+  margin: 5vh 5vw;
+
+  background: #6da197
+}
+header{
+		grid-template-columns: 1fr;
+		color:#FFFFFF;
+		margin-left: 2em;
+		margin-bottom: -30px;
+	}
+	h1{
+		margin-top: 2em;
+		font-size: 32px;
+
+	}
+	p{
+		font-size:28px;
+	}
+	#logo{
+		margin-top: 0.5em;
+		margin-bottom: 2em;
+		width: 100%;
+	}
+	#afbeelding{
+		text-align: center;
+	}
+
+}
+
+/*------------------------------- Ipad ------------------------------- */
+@media only screen and (min-width: 768px){
+	header{
+		display:grid;
+		grid-template-columns: 1fr 1fr;
+		margin-left: 2em;
+	}
+		
+	h1{
+		font-size: 48px;
+		margin-top:2em;
+
+	}
+	p{
+		font-size: 28px;
+		
+	}
+	#spacex{
+		margin-right: 4em;
+		margin-top: -7em;
+		width: 35%;
+	}
+	#afbeelding{
+		text-align: right;
+	}
+}
+
+/*------------------------------- Laptop------------------------------- */
+@media only screen and (min-width: 1024px){
+header{
+		display:grid;
+		grid-template-columns: 1fr 1fr;
+		margin-left: 2em;
+	}
+	h1{
+		font-size: 50px;
+		margin-left: 0.5em;
+		margin-bottom: 0.2em;
+
+	}
+	p{
+		font-size: 20px;
+		margin-bottom:5em;
+		margin-left: 1.2em;
+	
+}
+#spacex{
+		margin-right: 1em;
+		margin-top: -12em;
+		width: 25%;
+	}
+	#afbeelding{
+		text-align: right;
+	}
+	#map {
+  /*height: 90vh;*/
+  width: 100%;
+}
+}
+
+/*------------------------------- Desktop ------------------------------- */
+@media only screen and (min-width: 1720px){
+	h1{
+		font-size: 90px;
+		margin-left: 0.5em;
+		margin-bottom: 0.2em;
+
+	}
+	p{
+		font-size: 50px;
+		margin-bottom:5em;
+		margin-left: 1.2em;
+	}
+	#spacex{
+		margin-right: 1em;
+		margin-top: -36em;
+		width: 25%;
+	}
+	#afbeelding{
+		text-align: right;
+	}
+}
