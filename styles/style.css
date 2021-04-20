@@ -9,14 +9,9 @@
 body {
   margin: 5vh 5vw;
 
-  background: white;
+  background: #FFFFFF;
 }
-header{
-		grid-template-columns: 1fr;
-		color:#FFFFFF;
-		margin-left: 2em;
-		margin-bottom: -30px;
-	}
+
 	h1{
 		margin-top: 2em;
 		font-size: 32px;
